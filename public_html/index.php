@@ -16,5 +16,6 @@ and open the template in the editor.
        echo 'Hello World';
         ?>
          <p> testing </p>
+         <p> Hello World 123</p>
     </body>
 </html>
