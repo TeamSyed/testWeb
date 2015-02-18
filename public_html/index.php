@@ -10,13 +10,7 @@ and open the template in the editor.
         <title>Testing</title>
     </head>
     <body>
-        313143 hello
-        <?php
-       echo 'Testing 123';
-       echo 'Hello World';
-        ?>
-         <p> testing </p>
-         <p> Hello World 123</p>
-         <p> this is branch 2</p>
+        <?php include 'header.php';?>
+       <?php include 'footer.php';?>
     </body>
 </html>

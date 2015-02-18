@@ -10,10 +10,8 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <?php
-       echo 'Testing 123';
-       echo 'Hello World';
-        ?>
-        <p> testing </p>
+        <?php include 'header.php';?>
+       <?php include 'footer.php';?>
     </body>
+   
 </html>

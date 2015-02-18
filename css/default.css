@@ -1,0 +1,542 @@
+		/* 
+		Theme Name: Light Box
+		Description: For mini-book
+		Designer : Collis Ta'eed
+		Slicer/Coder : Jeffrey Way
+		
+		
+		/* Generic Styles */
+		
+		body {
+			background: #eeebe9 url(../images/bg.jpg) repeat-x;
+			text-align: center;
+			font-family: helvetica, arial, sans-serif;
+			line-height: 25px;
+		}
+		
+		body#subpage {
+			background: #eeebe9 url(../images/bg_alt.jpg) repeat-x;
+		} 
+		
+		h1, h2, h3, h4, h5 {
+			margin: 25px 0;
+		}
+		
+		h2 {
+			font-size: 41px;
+			color: #2f231e;
+			padding-bottom: 25px;
+			margin-top: 45px;
+			border-bottom: 1px solid #cec5c0;
+		}
+		
+		h3 {
+			color: #745459;
+			font-size: 30px;
+			line-height: 33px;
+		}
+		
+		h4 {
+			color: #2f231e;
+			line-height: 20px;
+			font-size: 16px;
+			text-transform: uppercase;
+		}
+		
+		hr {
+			background: none;
+			border: 1px solid #cec5c0;
+			margin: 34px 0;
+		}
+		
+		p {
+			color: #645a56;
+			font-size: 13px;
+			font-family: arial;
+		}
+		
+		a {
+			text-decoration: none;
+			color: black;
+		}
+		
+		a:hover {
+			text-decoration: underline;
+		}
+		
+		
+		/* LIST ITEMS */
+		
+		#container #main li {
+			color: #645a56;
+			font-size: 13px;
+			margin-bottom: 27px;
+		}
+		
+		#subpage #container ul {
+			margin: 1em 0 0 30px;
+		}
+		
+		#subpage li {
+			color: #645a56;
+			list-style-type: square;
+			line-height: 20px;
+			margin: 0; padding: 0;
+		}
+		
+		#subpage li strong {
+			color: #3b3431;
+			font-weight: bold;
+			display: block;
+		}
+		
+		/* END LIST ITEMS */
+		
+		
+		blockquote {
+			background: #ebe7e4;
+			color: #7f6357;
+			padding: 23px;
+			font: italic 20px/27px georgia;
+		}
+		
+		
+		blockquote p {
+			font-size: 20px;
+			color: #7f6357;
+			margin-bottom: 1em;
+			font-family: georgia;
+		}
+		
+		/* ARROW */
+		
+		.arrow {
+			width: 0;
+			height: 0;
+			line-height: 0;
+			border-top: 30px solid #e3e3e3;
+			border-left: 60px solid #f7f5f4;
+			border-right: 10px solid #f7f5f4;
+			position: absolute;
+			right: 30px;
+			
+		}
+		
+		
+		/* FORMS */
+		
+		
+		form {
+			width: 464px;
+			overflow: hidden;
+		}
+		
+		label {
+			display: block;
+			font-size: 11px;
+			color: #645a56;
+			text-transform: uppercase;
+		}
+		
+		input[type=text], textarea {
+			width: 452px;
+			height: 27px;
+			border: 1px solid #c3c5bf;
+			color: #645a56;
+			font-size: 17px;
+			padding: 7px 0 0 10px;
+			margin-bottom: 14px;
+			font-family: helvetica, arial;
+		}
+		
+		input[type=text]:hover, textarea:hover, input:focus, textarea:focus {
+			background: #eeecec;
+			outline: none;
+		}
+		
+		textarea {
+			height: 212px;
+		}
+		
+		input[type=submit] {
+			background: #d5ceca url(../images/submitButtonBG.jpg) no-repeat;
+			width: 102px;
+			height: 34px;
+			padding: 8px;
+			text-align: center;
+			font-size: 11px;
+			text-transform: uppercase;
+			float: right;
+			cursor: pointer;
+			border: none;
+			margin-top: 15px;
+			color: #30241f;
+			line-height: 20px;
+		}
+		
+		input[type=submit]:hover {
+			background: #bcb4ae;
+		}
+		
+		/* END FORMS */
+		
+		#container {
+			width: 1002px;
+			margin: auto;
+			text-align: left;
+			position: relative;
+			background: #f7f5f4 url(../images/containerBG.jpg) repeat-x;
+			
+		}
+		
+		body#subpage #container {
+			background: #f7f5f4 url(../images/containerBG_alt.jpg) repeat-x;
+		}
+		
+		
+		/* NAVIGATION */
+		
+		#container ul#nav {
+			float: right;
+			height: 111px;
+			margin: 10px;
+			margin-bottom: 0;
+		}
+		
+		#subpage #container ul#nav {
+			margin-right: -10px;
+		}
+		
+		#subpage #container ul#nav li {
+			margin-right: 70px;
+		}
+		
+		#nav li {
+			float: left;
+			font-size: 11px;
+			font-family: arial;
+			text-align: center;
+			margin: 20px;
+			width: 37px;
+			margin-right: 90px;
+			list-style-type: none;
+		}
+		
+		#nav li a {
+			color: #c7b18d;
+			display: block;
+			padding-top: 45px;
+			text-transform: uppercase;
+			text-align: center;
+					}
+		
+		/* THE ICONS FOR THE NAVIGATION */
+		
+		#nav li#li_home {
+			background: url(../images/home-trans.png) no-repeat 0 0;
+		}
+		
+		#nav li#li_work {
+			background: url(../images/work-trans.png) no-repeat 0 0;
+		}
+		
+		#nav li#li_about {
+			background: url(../images/about-trans.png) no-repeat 0 0;
+		}
+		
+		#container ul#nav li#li_contact {
+			background: url(../images/contact-trans.png) no-repeat 10px 0;
+			margin-right: 23px;
+			width: 60px;
+
+		}
+		
+		#subpage #container ul#nav li#li_contact {
+			margin-right: 42px;
+		}
+		
+		
+		/* END NAVIGATION */
+		
+		/* THE LOGO */
+		
+		#slogan {
+			height: 145px;
+			clear: both;
+		}
+		
+		#subpage #slogan {
+			height: 15px;
+		}
+		
+		#slogan h1 {
+			margin: 0 0 0 165px;
+			background: url(../images/logo-trans.png) no-repeat;
+			width: 124px;
+			height: 67px;
+			position: relative;
+			z-index: 10;
+			text-indent: -9999px;
+			top: 40px;
+		}
+		
+		#subpage #slogan h1 {
+			top: -85px;
+		}
+		
+		#slogan h1 a {
+			display: block;
+			width: 124px;
+			height: 67px;
+		}
+		
+		/* THE LIGHTBOX */
+		
+		#slogan img {
+			position: absolute;
+			top: -87px;
+			left: -40px;
+		}
+		
+		#subpage #slogan img {
+			top: -220px;
+		}
+		
+		#slogan p {
+			margin: -37px 200px 0 319px;
+			padding-left: 27px;
+			padding-top: 5px;
+			font-size: 18px;
+			color: #a68a7d;
+			border-left: 1px solid #4f3b33;
+		}
+		
+		#slogan a {
+			color: white;
+		}
+		
+		
+		/* MAIN CONTENT */
+		
+		#main {
+			padding: 0 36px 100px 347px;
+			overflow: hidden;
+			border-left: 1px solid white;
+			border-right: 1px solid white;
+		}
+		
+		#container #main h2 {
+			padding-left: 0;
+		}
+		
+		#main #primaryContent {
+			float: left;
+			width: 334px;
+		}
+		
+		body.single #main #primaryContent {
+			width: 100%;
+		}
+		
+		#primaryContent ul h3 {
+			text-indent: -9999px;
+			height: 34px;
+			margin-bottom: 13px;
+		}
+		   
+		  #primaryContent li#first h3 {
+		  	background: url(../images/whatWeDoHeadings.png) no-repeat 0 0;
+		  }
+
+		  #primaryContent li#second h3 {
+		  	background: url(../images/whatWeDoHeadings.png) no-repeat 0 -34px;
+		  
+		  }
+		  
+		  #primaryContent li#third h3 {
+		  	background: url(../images/whatWeDoHeadings.png) no-repeat 0 -68px;		  
+		  }		  		
+		
+		#first p, #second p, #third p {
+			padding-left: 50px;
+		}
+		
+		#main div#secondaryContent {
+			float: right;
+			width: 249px;
+			padding-top: 45px;
+			position: relative;
+		}
+		
+		#secondaryContent cite {
+			font: bold normal 15px arial;
+			color: #2f231e;
+			float: right;
+			padding-right: 20px;
+			padding-top: 35px;
+
+		}
+		
+		#secondaryContent cite span {
+			font-size: 10px;
+			line-height: 10px;
+			display: block;
+			color: #89451f;
+		}
+		
+		/* RECENT PORTFOLIO AREA */
+		
+		#main div#recentWork {
+			clear: both;
+			position: relative;
+			border-top: 1px solid #cec5c0;
+		}
+		
+		#subpage #container #recentWork {
+			border-top: none;
+		}
+		
+		#subpage #recentWork h3 {
+			font-size: 24px;
+			color: #2f231e;
+		}
+		
+		#recentWork h2 {
+			border: none;
+			margin-bottom: 0;
+			padding: 28px;
+			margin-top: 11px;
+			
+		}
+		
+		#recentWork ol {
+			position: absolute;
+			right: 0;
+			top: 45px;
+		}
+		
+		#subpage #recentWork ol {
+			top: 0;
+		}
+		
+		#recentWork ol li {
+			width: 16px;
+			height: 16px;
+			display: inline;
+		}
+		
+		#recentWork ol li a {
+			color: white;
+			background: #6c535a;
+			width: 100%;
+			height: 100%;
+			padding: 5px 10px;
+			-moz-border-radius: 100px;
+			-webkit-border-radius: 13px;
+		}
+		
+		#recentWork ol li.chosen a, #recentWork ol li a:hover{
+			background: #a37a7e;
+		}
+		
+		#recentWork ol li a:hover {
+			text-decoration: none;
+		}
+		
+		
+		#recentWork p {
+			text-align: right;
+			font-size: 13px;
+			font-style: italic;
+			color: #4e4d4d;
+			margin-top: 10px;
+		}
+		
+		#subpage #recentWork p {
+			text-align: left;
+			line-height: 18px;
+		}
+		
+		div.image_display {
+			padding: 11px;
+			border: 1px solid #d6cec9;
+			background: white;
+		}
+
+		.image_display img {
+			border: 1px solid #d6cec9;
+		}
+		
+		/* FOOTER */
+		
+		#footerWrap {
+			border-top: 1px solid white;
+			background: #32251f;
+		}
+		
+		#footer {
+			color: #a68a7d;
+			width: 1002px;
+			margin: auto;
+			text-align: left;
+			font-size: 11px;
+			line-height: 17px;
+			padding-top: 35px;
+			text-transform: uppercase;
+			border-right: #574138; /* CHECK THIS */
+			border-left: #574138;
+			overflow: hidden;
+		}
+		
+		#footer p {
+			color: #a68a7d;
+			font-size: 11px;
+		}
+		
+		#footer #footerLogo {
+			float: left;
+			background: #291e18;
+			width: 348px;
+			text-align: center;
+			padding-top: 2.5em;
+			padding-bottom: 3em;
+			margin-right: 32px;
+			margin-top: -35px;
+			border-right: 1px solid #48362d;
+		}
+		
+		#footer p#footerInfo {
+			float: right;
+			padding-right: 45px;
+			margin-top: -17px;
+		}
+		
+		#footer a {
+			color: white;
+			font-weight: bold;
+		}
+		
+		/* CONTACT PAGE */
+		
+		#container ul#info {
+			width: 386px;
+			overflow: hidden;
+			margin-left: 0;
+			margin-bottom: 35px;
+		}
+		
+		#container ul#info li {
+			float: left;
+			width: 192px;
+			padding: 0;
+			line-height: 1.7em;
+			list-style-type: none;
+			margin-bottom: 0;
+		}
+		
+		
+		ul#info li strong {
+			display: inline;
+			color: #342f2c;
+			padding-right: 30px;
+		}
