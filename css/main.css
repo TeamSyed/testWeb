@@ -6,12 +6,12 @@ html {height : 100%}
 #main {margin-top:50px;background : #222 url(../graphics/data.jpg) repeat-x;max-height:390px; overflow : auto; padding:15px; border: 2px solid white}
 #banner img { width : 300px}
 #banner { height : 100px; float: right; margin-top: -100px}
-#menu ul { overflow: hidden; margin-top:120px; margin-left:320px; padding-left:100px}
+#menu ul { overflow: hidden;  margin-left:320px; padding-left:100px}
 #menu ul li {float:left; padding-left:40px; margin-right: 35px; color: white}
 #list tr {float:left;  color: gray}
-#menu{ margin-left: -100px}
+#menu{ margin-left: -490px; padding: 20px; font-family:Verdana, Geneva, Tahoma, sans-serif; font-size:16px}
 td{padding: 15px; width: 580px}
-#footer {   position:fixed;  
+#footer {   position:absolute;  
     background: #222 url(../graphics/bg.jpg) repeat-x;  
     color: #fff;
     list-style: none;
