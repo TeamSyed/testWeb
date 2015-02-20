@@ -30,6 +30,7 @@
                         <li id="home"><a href="#/home">Home</a></li>
                         <li id="event"><a href="newevent.php">Add an event</a></li>
                         <li id="Contact"><a href="#/about">About Us</a></li>
+                        <li id="Contacts"><a href="#/about">About Us</a></li>
                         
                     </ul>
             <div id="container">
